@@ -33,7 +33,7 @@ class TakeBreak():
 
 t_break = TakeBreak()
 
-t_break.set_time(15, 5)
-
-t_break.start_script()
+if __name__ == '__main__':
+    t_break.set_time(15, 5)
+    t_break.start_script()
 
